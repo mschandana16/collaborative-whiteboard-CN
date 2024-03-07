@@ -1,1 +1,1 @@
-# collaborative-whiteboard-CN
+# collaborative-whiteboard
