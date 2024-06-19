@@ -13,8 +13,11 @@ This project consists of a client-server architecture enabling multiple clients 
 ## Commands to Run
 
 ### Start the Server
-
 Open a terminal and run the following command to start the server:
 
-```bash
-python ssl_server.py
+`python ssl_server.py`
+
+### Start the Client
+Open another terminal (multiple such client terminals can be made use of) and run the following command to start a client:
+
+`python ssl_client.py`
