@@ -1,6 +1,6 @@
 # Collaborative Whiteboard
 
-This project consists of a client-server architecture enabling multiple clients to collaborate on a shared whiteboard in real time using Python's sockets and SSL/TLS encryption. The server-side manages client connections, handles client activity, and broadcasts drawing commands to all connected clients. The client-side provides a graphical user interface (GUI) built with Tkinter, allowing users to draw, select colours, adjust brush thickness, and perform undo and redo actions.
+This project consists of a client-server architecture enabling multiple clients to collaborate on a shared whiteboard in real time using Python's sockets and SSL/TLS encryption. The server manages client connections, handles client activity, and broadcasts drawing commands to all connected clients. The client-side provides a graphical user interface (GUI) built with Tkinter, allowing users to draw, select colours, adjust brush thickness, and perform undo and redo actions.
 
 ## Features
 
@@ -10,14 +10,21 @@ This project consists of a client-server architecture enabling multiple clients 
 - **Color Selection and Brush Thickness:** Interactive colour pickers and adjustable brush thickness enhance drawing capabilities and user experience.
 - **Client Disconnect Handling:** The server gracefully handles client disconnections and removes inactive clients from the active client list.
 
-## Commands to Run
+## Commands to be run
 
-### Start the Server
+### 1. Start the Server
 Open a terminal and run the following command to start the server:
 
-`python ssl_server.py`
+`python server.py`
 
-### Start the Client
-Open another terminal (multiple such client terminals can be made use of) and run the following command to start a client:
+### 2. Start the Client(s)
+Open another terminal (multiple such client terminals may be opened) and run the following command to start a client:
 
-`python ssl_client.py`
+`python client.py`
+
+## Usage
+
+1. **Start the Server:** Run the server script to initialize the server and start listening for client connections.
+2. **Start the Client(s):** Run the client script on multiple terminals or machines to connect to the server and collaborate on the shared whiteboard.
+3. **Draw and Collaborate:** Use the drawing tools provided in the client GUI to draw, select colours, adjust brush thickness, and perform undo/redo actions in real time with other connected clients.
+
