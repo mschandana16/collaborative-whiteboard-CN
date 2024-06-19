@@ -10,5 +10,5 @@ This project consists of a client-server architecture enabling multiple clients 
 5. Client Disconnect Handling: The server gracefully handles client disconnections and removes inactive clients from the active client list.
 
 ### Commands to be run:
-In one terminal: `python ssl_server.py`
-In another terminal (multiple such client terminals can be made use of): `python ssl_client.py`
+- In one terminal: `python ssl_server.py`
+- In another terminal (multiple such client terminals can be made use of): `python ssl_client.py`
