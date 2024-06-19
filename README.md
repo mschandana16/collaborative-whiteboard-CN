@@ -12,12 +12,12 @@ This project consists of a client-server architecture enabling multiple clients 
 
 ## Commands to be run
 
-### 1. Start the Server
+1. ### Start the Server
 Open a terminal and run the following command to start the server:
 
 `python server.py`
 
-### 2. Start the Client(s)
+2. ### Start the Client(s)
 Open another terminal (multiple such client terminals may be opened) and run the following command to start a client:
 
 `python client.py`
